@@ -2,6 +2,10 @@
   ""
 }
 
+life_goals
+  top
+  top_three
+  list
 goals
   name
   subject
@@ -9,7 +13,9 @@ goals
   priority
   benefit
   value
-subjects`
+subjects
+  name
+  rank
 daily
   name
   subjects

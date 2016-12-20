@@ -1,28 +1,8 @@
-def p(msg):
-    print(msg)
+import os
+from sys import platform
+from functions import clear
+from wizard_top_goal import top_3_start
+from wizard_daily_todo import daily_todo_start
 
-def start_goal_finding():
-    p("Enter your life goals, one by one:")
-    enter_mode = 1
-    x = 0
-    goals_arr = []
-    while (enter_mode == 1):
-        p("\n")
-        goal_item = input(str("> "))
-        if "EXIT" in goal_item:
-            enter_mode = 0
-        else:
-            goals_arr.append(goal_item)
-            x+=1
-    return goals_arr
-
-def selecting_priorities(req):
-    x=1
-    for item in req:
-        print("#{} - {}".format(x,item))
-        x+=1
-    return x
-
-
-goalsArr = start_goal_finding()
-selecting_priorities(goalsArr)
+top_3_start("Daniel")
+daily_todo_start("Daniel")
