@@ -20,33 +20,36 @@ daily
   name
   subjects
   value
-tenyr
-  goal name
-  subject
-  rank priority
-  benefit
-  value
-fiveyr
-  goal name
-  subject
-  rank priority
-  benefit
-  value
-threeyr
-  goal name
-  subject
-  rank priority
-  benefit
-  value
-oneyr
-  goal name
-  subject
-  rank priority
-  benefit
-  value
-sixmnth
-  goal name
-  subject
-  rank priority
-  benefit
-  value
+life_goals:
+  linked
+  goals
+    tenyr
+      goal name
+      subject
+      rank priority
+      benefit
+      value
+    fiveyr
+      goal name
+      subject
+      rank priority
+      benefit
+      value
+    threeyr
+      goal name
+      subject
+      rank priority
+      benefit
+      value
+    oneyr
+      goal name
+      subject
+      rank priority
+      benefit
+      value
+    sixmnth
+      goal name
+      subject
+      rank priority
+      benefit
+      value
